@@ -2,7 +2,25 @@
     <string name="app_name">Sunshine</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="action_refresh">Refresh</string>
+
+    <!-- Menu label to fetch updated weather info from the server -->
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="action_map">View Map</string>
+    <string name="action_share">Share</string>
     <string name="title_activity_detail">DetailActivity</string>
     <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Label for the location preference [CHAR LIMIT=30] -->
+    <string name="pref_location_label">Location</string>
+
+    <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE]-->
+    <string name="pref_location_key" translatable="false">location</string>
+
+    <!-- Default postal code for location preference [CHAR LIMIT=NONE] -->
+    <string name="pref_location_default" translatable="false">beijing</string>
+
+    <string name="pref_unit_label">Unit</string>
+    <string name="pref_unit_key" transtable="false">unit</string>
+    <string name="pref_unit_default" transtable="false">metric</string>
+    <string name="pref_unit_imperial" transtable="false">imperial</string>
 </resources>
